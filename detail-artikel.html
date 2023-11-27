@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geek Application</title>
+    <link rel="icon" href="./img/nobg.png" type="image/x-icon">
+
+    <!-- css & bootsstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md p-4" data-bs-theme="dark" style="background-color: rgb(5, 5, 68);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/nobg.png" alt="Geek" width="30" height="24">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Kategori
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="tes-jurusan.html">Tes Jurusan</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="informasi-kampus.html">Informasi Kampus</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="berita-kampus.html">Berita Kampus</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="artikel.html">Artikel</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a href="login.html" class="btn btn-primary" type="submit">Login</a>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card mb-4" style="background-color: rgb(127, 125, 235);">
+                    <div class="card-body">
+                        <h1 class="text-center text-light"><b>DETAIL ARTIKEL</b></h1>
+                    </div>
+                </div>
+                <img class="hero-image text-center" src="https://picsum.photos/536/354" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="rgb(127, 125, 235)"
+          fill-opacity="1"
+          d="M0,256L40,245.3C80,235,160,213,240,213.3C320,213,400,235,480,240C560,245,640,235,720,202.7C800,171,880,117,960,112C1040,107,1120,149,1200,181.3C1280,213,1360,235,1400,245.3L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+
+    <!-- detail artikel -->
+    <section class="pb-5" style="background-color: rgb(127, 125, 235); margin-top: 0;">
+        <div class="container">
+          <div class="row d-flex flex-column align-items-center">
+            <div class="col-md-8 mb-3 text-center text-light">
+                <h2>12 Jurusan Kuliah yang Cocok untuk Anak IPA</h2>
+            </div>
+            <div class="col-md-8 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"><b>1. Jurusan Teknik Kimia</b></h5>
+                  <p>Anda merasa tergugah saat menyimak pelajaran-pelajaran yang berbau unsur kimia? Mungkin jurusan Teknik Kimia adalah yang terbaik untuk Anda. Program studi yang satu ini akan banyak mempelajari tentang ilmu alam dan eksperimen kimia, matematika, bahkan desain.
+                    Peluang kerjanya setelah lulus pun tersebar luas. Anda bisa bekerja di bagian research and development, ahli pertambangan, ahli perminyakan, dan lain-lain.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"><b>2. Jurusan Teknik Sipil</b></h5>
+                  <p>Anda berasal dari jurusan IPA, tetapi juga suka menggambar? Tidak ada salahnya mempertimbangkan jurusan teknik sipil. Di sini, Anda akan mempelajari berbagai mata kuliah mengenai proses perancangan, pembangunan, hingga perhitungan efisiensi sebuah bangunan maupun infrastruktur. Oleh karena itu, tidak heran bila perkuliahannya akan banyak bersinggungan dengan matematika dan fisika.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"><b>3. Jurusan Arsitektur</b></h5>
+                  <p>Tak beda jauh dengan teknik sipil, ada juga program studi arsitektur yang akan sangat memerlukan kemampuan berhitung dan menggambar. Masuk ke jurusan ini artinya Anda akan mempelajari ilmu seputar perancangan, pembangunan, dan konstruksi bangunan dengan mempertimbangkan aspek estetika hingga lingkungan. Peluang kerjanya setelah lulus pun beragam, mulai dari menjadi kontraktor sampai menjadi konsultan arsitektur.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"><b>4. Jurusan Teknik Informatika</b></h5>
+                  <p>Teknik informatika juga menjadi jurusan kuliah untuk anak IPA yang peluang kerjanya besar. Di tengah pesatnya kemajuan teknologi, program studi satu ini pastinya memiliki masa depan yang cerah, paling tidak untuk 10 tahun mendatang.
+                    Beberapa jenis pekerjaan yang membutuhkan bantuan dari seorang lulusan teknik informatika adalah web developer, web designer, pengembang aplikasi, hingga konsultan teknologi informasi itu sendiri.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"><b>5. Jurusan Kedokteran</b></h5>
+                  <p>Satu jurusan kuliah untuk anak IPA yang peluang kerjanya besar dari waktu ke waktu adalah dokter. Memang, sekolah kedokteran akan memakan waktu cukup lama, rata-rata sekitar tujuh tahunan jika ingin mengantongi izin praktik. Belum lagi, kalau Anda ingin mendalami ilmu spesialis, pastinya masa studi akan mencapai 10 tahunan, tetapi hasilnya akan sangat setimpal.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"><b>6. Jurusan Teknik Perkapalan</b></h5>
+                  <p>Teknik perkapalan juga menjadi program studi yang bisa Anda pilih jika pernah mengambil jurusan IPA di bangku SMA. Karena masih berbau teknik, program studi satu ini akan bersinggungan dengan matematika, menggambar, dan komputasi. Peluang kerjanya pun beragam karena mencakup ranah pemerintah, migas, sampai tenaga pendidik seperti dosen atau guru.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-light">
+          <div class="row justify-content-evenly">
+            <div class="col-md-4 d-flex flex-column text-center">
+              <a class="navbar-brand mb-3" href="#">
+                <img src="./img/nobg.png" alt="Geek" width="70px">
+              </a>
+              <h5 class="mb-3"><b>NAMA PLATFORM WEB</b></h5>
+              <p>"Eksplorasi Tanpa Batas! 🚀 Temukan Jurusan Favoritmu dan Raih Masa Depan Impianmu bersama Kami!"</p>
+            </div>
+            <div class="footer-item col-md-4 d-flex flex-column">
+              <h5 class="mb-4"><b>LAYANAN (NAMA WEB)</b></h5>
+              <a style="text-decoration: none;" class="text-light mb-1" href="tes-jurusan.html">Tes Jurusan</a>
+              <a style="text-decoration: none;" class="text-light mb-1" href="berita-kampus.html">Berita Kampus</a>
+              <a style="text-decoration: none;" class="text-light mb-1" href="informasi-kampus.html">Informasi Kampus</a>
+              <a style="text-decoration: none;" class="text-light mb-1" href="artikel.html">Artikel Tips & Trick</a>
+              <a style="text-decoration: none;" class="text-light mb-1" href="">Ensiklopedia Dunia Perkuliahan</a>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
